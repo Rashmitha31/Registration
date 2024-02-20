@@ -1,0 +1,87 @@
+/* General styling for form */
+body{
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    height:100vh; 
+    background-size: cover;
+    background-position: center;
+}
+#employeeForm {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    
+}
+
+/* Styling for form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for text input, date input, and select dropdown */
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+/* Styling for input fields on focus */
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group select:focus {
+    border-color: #3498db; /* Blue border color on focus */
+}
+
+/* Styling for radio button labels */
+.form-group label[for="male"],
+.form-group label[for="female"] {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Styling for submit button */
+#employeeForm button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+/* Styling for submit button on hover */
+#employeeForm button[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+/* Styling for heading */
+h2 {
+    color: white; /* Blue color for the heading */
+    text-align: center;
+}
+
+  
